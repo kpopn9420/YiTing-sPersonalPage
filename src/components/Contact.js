@@ -9,9 +9,9 @@ const Contact = () => {
                     <h4>Get in Touch</h4>
                     <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
                     <ul className="list-unstyled">
-                        <li>Email: your.email@example.com</li>
-                        <li>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">yourusername</a></li>
-                        <li>LinkedIn: <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">yourusername</a></li>
+                        <li src={`${process.env.PUBLIC_URL}/img/gmail.jpg`}>kpopn9420@gmail.com</li>
+                        <li src={`${process.env.PUBLIC_URL}/img/github.jpg`}><a href="https://github.com/kpopn9420" target="_blank" rel="noopener noreferrer">kpopn9420</a></li>
+                        <li src={`${process.env.PUBLIC_URL}/img/linkedin.jpg`}><a href="https://www.linkedin.com/in/yi-ting-xie-7b613b214/" target="_blank" rel="noopener noreferrer">Xie Yi Ting</a></li>
                     </ul>
                 </div>
                 <div className="col-md-6">

@@ -3,25 +3,31 @@ import { Card, Button, Row, Col } from 'react-bootstrap';
 
 const projects = [
     {
-        name: 'Project One',
+        name: 'MEMER',
         description: 'A brief description of Project One.',
-        technologies: ['Flask', 'MySQL'],
-        githubLink: 'https://github.com/yourusername/project-one',
-        demoLink: 'https://yourusername.github.io/project-one'
+        technologies: ['Flask', 'MySQL','GPT-3','DALL·E'],
+        links: [
+            { label: 'IEEE Paper', url: 'https://ieeexplore.ieee.org/document/10469091' },
+            { label: 'Website', url: 'https://flask-memer-richie-98a652b4a55b.herokuapp.com/' }
+        ]
     },
     {
-        name: 'Project Two',
+        name: 'Restaurant Managment System',
         description: 'A brief description of Project Two.',
-        technologies: ['JavaFX', 'DALL·E'],
-        githubLink: 'https://github.com/yourusername/project-two',
-        demoLink: 'https://yourusername.github.io/project-two'
+        technologies: ['JavaFX','MySQL','Java'],
+        links: [
+            { label: 'Github', url: '' },
+            { label: 'Demo', url: 'https://youtu.be/UREnQsBJj5M' }
+        ]
     },
     {
-        name: 'Project Three',
+        name: 'Ordering Website',
         description: 'A brief description of Project Three.',
-        technologies: ['GPT-3', 'React'],
-        githubLink: 'https://github.com/yourusername/project-three',
-        demoLink: 'https://yourusername.github.io/project-three'
+        technologies: ['JSP','Servlet','MySQL'],
+        links: [
+            { label: 'Github', url: '' },
+            { label: 'Demo', url: 'https://youtu.be/BcejJcJS1b8' }
+        ]
     }
 ];
 
