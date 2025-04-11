@@ -47,8 +47,20 @@ const Portfolio = () => {
                                         <span key={i} className="badge bg-secondary me-1">{tech}</span>
                                     ))}
                                 </div>
-                                <Button variant="primary" href={project.githubLink} target="_blank">GitHub</Button>
-                                <Button variant="secondary" href={project.demoLink} target="_blank" className="ms-2">Demo</Button>
+                                <div>
+                                    {project.links.map((link, i) => (
+                                        <Button
+                                            key={i}
+                                            variant={i === 0 ? "primary" : "secondary"}
+                                            href={link.url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className={i > 0 ? "ms-2" : ""}
+                                            >
+                                            {link.label}
+                                        </Button>
+                                    ))}
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
